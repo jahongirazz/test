@@ -1,0 +1,18 @@
+body{background-image: url(images/Без\ названия\ \(3\).jpg);background-size: cover;}
+.a:hover{color:aquamarine}
+UL:hover LI a {
+    transform: scale(1/5);
+    opacity:0/2 ;
+    filter: blur(3xp);
+}
+ul.li.a:hover{
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+.p{background-color: lime;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 100%;
+background-image:linear-gradient(45deg, red 33%,green 34%, rgb(232, 19, 19) 33%)
+}
